@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy http -p :8443 -t wss --local-ws-password pass
+./proxy http -p :8080 -t ws --local-ws-password pass
