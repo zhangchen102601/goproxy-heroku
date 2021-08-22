@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy http -t tcp -p :8080 
+./proxy http -t tcp -p :443 
